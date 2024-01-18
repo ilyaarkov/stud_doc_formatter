@@ -1,0 +1,123 @@
+@font-face {
+	font-family: 'SFLight';
+	src: url('../fonts/sf_ui_display_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_light.svg#sf_ui_display_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #010101;
+	color: white;
+	font-family: SFLight, sans-serif;
+	font-weight: 300;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	margin-top: 0.5rem;
+	padding: 25px;
+	font-weight: 600;
+	font-size: 1.5rem;
+	background-color: #1C1C1E;
+	border-radius: .75rem;
+}
+
+.word-icon {
+	margin: 10px;
+	width: 2rem;
+	height: 2rem;
+}
+
+.burger-menu {
+	margin-left: auto;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+/* ============================================================================================================================= */
+
+.main_input {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 15px 0px 0px 0px;
+	background-color: #1C1C1E;
+	border-radius: .75rem;
+}
+
+.main_input h1 {
+	font-size: 1.5rem;
+	margin: 0 auto;
+	padding: 1rem 0px 0px 0px;
+}
+
+.main_input h3 {
+	font-size: 1rem;
+	color: #888888;
+	margin: 10px auto;
+}
+
+.doc_input-output {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+
+#docpicker, main button {
+	font-family: SFLight, sans-serif;
+	font-weight: 300;
+	color: #212529;
+	background-color: #fff;
+	border: 1px solid #bdbdbd;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+main button {
+	margin: 5px;
+	padding: 5px;
+	width: 20%;
+	height: 32px;
+	background-color: #00ff2f;
+	font-weight: bold;
+	flex-wrap: wrap;
+}
+
+
+
+.main_output {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 15px 0px 0px 0px;
+	background-color: #1C1C1E;
+	border-radius: .75rem;
+}
+
+.main_output h3 {
+	font-size: 1.5rem;
+	margin: 0 auto;
+	padding: 1rem 0px 1rem 0px;
+}
+
+.main_output a {
+	border-radius: .5rem;
+	background: #4676D7;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 1rem;
+	text-decoration: none;
+	width: 20%;
+	text-align: center;
+	margin: 0 auto 1rem;
+}
